@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>О компании</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="index.html" class="header__logo" data-scroll="#">
+                        <img src="img/company/logo.svg" alt="">
+                        <div>Свет далеких <br>планет</div>    
+                    </a>
+                    <nav class="nav" id="nav">
+                        <a href="index.html" class="nav__link">О компании</a>
+                        <a href="tours.html" class="nav__link">Список туров</a>
+                        <a href="decoration.html" class="nav__link">Оформить тур</a>
+                    </nav>
+                    
+                    <button class="nav-toggle" id="nav-toggle" type="button">
+                        <span class="nav-toggle__item">Menu</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="intro-tours" id="intro">
+            <div class="container">
+                <div class="intro-tours__inner">
+                    <div class="intro-tours__inner-text">
+                        <div class="intro-tours__title">
+                            Ближайший тур
+                        </div>
+                        <div class="intro-tours__subtitle">
+                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                        </div>
+                    </div>
+                    <div class="intro-tours__inner-block">
+                        <div class="tours__card">
+                            <div class="tours__card-img">
+                                <img src="img/tours/01.jpg" alt="">
+                                <div class="tours__card-date">
+                                    JAN 25, 2022
+                                </div>
+                            </div>
+                            <div class="tours__card-text">
+                                <div class="tours__card-title">
+                                    Марс
+                                </div>
+                                <div class="tours__card-subtitle">
+                                    Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                </div>
+                                <a href="mars.html" class="tours__card-btn">
+                                    <div>
+                                        Подробнее о туре
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="list">
+            <div class="container">
+                <div class="list__inner">
+                    <div class="list__title">Список туров</div>
+                    <nav class="filter__nav">
+                        <div class="filter__nav-title">Планеты</div>
+                        <ul>
+                            <li data-f="all">Все туры</li>
+                            <li data-f="filter__nav-mars" class="filter__nav-text">Планеты Солнечной системы</li>
+                            <li data-f="filter__nav-proxima" class="filter__nav-text">Проксима Центавра b</li>
+                            <li data-f="filter__nav-ross" class="filter__nav-text">Росс 128 b</li>
+                            <li data-f="filter__nav-gliese" class="filter__nav-text">Глизе 667 С с</li>
+                            <li data-f="filter__nav-hd" class="filter__nav-text">HD 40307 g</li>
+                            <li data-f="filter__nav-trappist" class="filter__nav-text">TRAPPIST-1 e</li>
+                        </ul>
+                    </nav>
+                    <div class="basic">
+                        <div class="basic__tours">
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-mars">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/01.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            JAN 25, 2022
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            Марс
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-mars">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/02.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            FEB 13, 2023
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            Европа
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-mars">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/05.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            FEB 13, 2023
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            Венера
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-proxima">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/07.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            FEB 13, 2023
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            Проксима Центавра b
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-ross">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/08.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            JAN 25, 2022
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            Росс 128 b
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-gliese">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/06.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            FEB 13, 2023
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            Глизе 667 C c
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-hd">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/04.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            FEB 13, 2023
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            HD 40307 g
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-tours__inner-block basic__tours-width box filter__nav-trappist">
+                                <div class="tours__card">
+                                    <div class="tours__card-img">
+                                        <img src="img/tours/03.jpg" alt="">
+                                        <div class="tours__card-date">
+                                            FEB 13, 2023
+                                        </div>
+                                    </div>
+                                    <div class="tours__card-text">
+                                        <div class="tours__card-title">
+                                            TRAPPIST-1 e
+                                        </div>
+                                        <div class="tours__card-subtitle">
+                                            Планета контрастов, состоящая из множества глубоких каньонов, огромных вулканов и кратеров, которые когда-то содержали воду.
+                                        </div>
+                                        <a href="" class="tours__card-btn">
+                                            <div>
+                                                Подробнее о туре
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__links">
+                        <div class="links__logo">
+                            Свет далеких<br> планет
+                        </div>
+                        <div class="links__nav">
+                            <a class="nav__item">О компании</a>
+                            <a class="nav__item">Спиоск туров</a>
+                            <a class="nav__item">Оформить тур</a>
+                            <a class="nav__item">Помощь</a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="footer__social">
+                        <div class="social__item">
+                            <div class="social__item-img">
+                                <img src="img/company/07.svg" alt="img">
+                                <img src="img/company/08.svg" alt="img">
+                            </div>
+                            <div class="social__item-img">
+                                <img src="img/company/09.svg" alt="img">
+                                <img src="img/company/10.svg" alt="img">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script/app.js"></script>
+        <script src="script/filter.js"></script>
+    </div> 
+</body>
+</html>
